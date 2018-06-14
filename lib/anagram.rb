@@ -13,6 +13,8 @@ class Anagram
     new_array = []
     array.each do | aryword |
       if aryword.split.sort == @word.split.sort
+        new_array << aryword
+      end
     end
   end
 
