@@ -16,6 +16,7 @@ class Anagram
         new_array << aryword
       end
     end
+    new_array
   end
 
 end
